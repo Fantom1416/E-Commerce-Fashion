@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cards .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards .top .card {
+  margin: 0px 10px;
+}
+.cards .top .card .text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+}
+.cards .top .card .text h1 {
+  font-size: 19px;
+  font-family: sans-serif;
+}
+.cards .top .card .text button {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #333333;
+  background-color: rgba(240, 248, 255, 0);
+  color: #333333;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.cards .top .card .text span {
+  position: absolute;
+  right: 30px;
+  color: rgb(255, 217, 0);
+  font-size: 21px;
+}
+.cards .top .card .text p {
+  position: absolute;
+  right: 30px;
+  bottom: 27px;
+  color: rgb(0, 0, 0);
+  font-size: 21px;
+  font-weight: 600;
+}
+.cards .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.cards .bottom .card {
+  margin: 0px 10px;
+  position: relative;
+}
+.cards .bottom .card .text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+}
+.cards .bottom .card .text h1 {
+  font-size: 19px;
+  font-family: sans-serif;
+}
+.cards .bottom .card .text button {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #333333;
+  background-color: rgba(240, 248, 255, 0);
+  color: #333333;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.cards .bottom .card .text .btn5 {
+  background-color: #023047;
+  color: #fff;
+}
+.cards .bottom .card .text span {
+  position: absolute;
+  right: 30px;
+  color: rgb(255, 217, 0);
+  font-size: 21px;
+}
+.cards .bottom .card .text .span5 {
+  color: #023047;
+}
+.cards .bottom .card .text p {
+  position: absolute;
+  right: 30px;
+  bottom: 27px;
+  color: rgb(0, 0, 0);
+  font-size: 21px;
+  font-weight: 600;
+}
+.cards .bottom .card .link {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  cursor: pointer;
+}
+.cards .view {
+  width: 130px;
+  background-color: #023047;
+  color: #fff;
+  margin: 60px 0px;
+  height: 50px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 16px;
+}/*# sourceMappingURL=Cards.css.map */

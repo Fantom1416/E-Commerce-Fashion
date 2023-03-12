@@ -1,0 +1,56 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../Images/idn.png);
+    // border: 2px solid red;
+    object-fit: cover;
+    // background-size: cover;
+    // background-position: center;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    // margin-top: 200px;
+
+    .fon {
+        width: 100%;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.568);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #E5F6FF;
+            width: 980px;
+            height: 100px;
+
+            h1 {
+                font-family: sans-serif;
+                font-size: 19px;
+                color: #333333;
+
+            }
+
+            button {
+                color: #023047;
+                border: 2px dashed #023047;
+                margin: 0px 35px;
+                height: 45px;
+                width: 150px;
+            }
+
+            h2 {
+                font-family: sans-serif;
+                font-size: 17px;
+                color: #333333;
+            }
+        }
+
+
+    }
+
+}

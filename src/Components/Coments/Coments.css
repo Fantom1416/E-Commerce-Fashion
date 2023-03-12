@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.coments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+.coments .sliders {
+  position: absolute;
+  right: 50px;
+  top: 28%;
+  cursor: pointer;
+}
+.coments h1 {
+  font-size: 32px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.coments p {
+  font-size: 17px;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+.coments .coms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.coments .coms .com {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0px 3px 32px -8px rgba(0, 0, 0, 0.25);
+  margin: 0px 20px;
+  height: 200px;
+}
+.coments .coms .com p {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.coments .coms .com .avatar {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.coments .coms .com .avatar h3 {
+  font-size: 13px;
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+.coments .coms .com .stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.coments .coms .com .stars img {
+  margin: 0px 3px;
+}
+.coments .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  transform: translateY(70px);
+}
+.coments .slide .slider1 {
+  border: 1.5px solid #023047;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.coments .slide .slider2 {
+  background-color: #023047;
+  border: 2px solid #fff;
+  outline: 1.5px solid #023047;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0px 13px;
+  cursor: pointer;
+}/*# sourceMappingURL=Coments.css.map */

@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .left {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 60px;
+        justify-content: center;
+        width: 50%;
+        background-color: #023047;
+        height: 90vh;
+
+        .text {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+
+            span {
+                color: #9CDEFF;
+                font-family: sans-serif;
+                font-size: 18px;
+            }
+
+            h1 {
+                color: #9CDEFF;
+                font-family: sans-serif;
+                font-size: 44px;
+                margin-top: 5px;
+            }
+
+            .h11 {
+                margin-top: 20px;
+                color: #fff;
+            }
+
+
+            p {
+                color: #fff;
+                font-family: sans-serif;
+                margin-top: 20px;
+            }
+
+            button {
+                width: 110px;
+                height: 45px;
+                background-color: #fff;
+                color: #023047;
+                margin-top: 20px;
+                font-size: 16px;
+                border: none;
+                font-weight: 600;
+            }
+        }
+
+        .sliders {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            width: 100px;
+            height: 40px;
+            bottom: 0%;
+            transform: translateY(60px) translateX(550px);
+
+            .slider1 {
+                background-color: #02304700;
+                border: 1.5px solid #fff;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+            .slider2 {
+                background-color: #ffffff;
+                border: 2px solid #023047;
+                outline: 1.5px solid #fff;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                margin: 0px 13px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .right {
+        width: 50%;
+        // border: 2px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        background: rgba(0, 0, 0, 0.755);
+
+        .img1 {
+            width: 100%;
+        }
+
+        .kurtka {
+            width: 600px;
+            position: absolute;
+            transform: translateX(-230px);
+        }
+    }
+}

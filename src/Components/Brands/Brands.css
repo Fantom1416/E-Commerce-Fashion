@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.brands {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.brands h1 {
+  color: #333333;
+  font-family: sans-serif;
+  font-size: 24px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.brands p {
+  font-size: 16px;
+  color: #333333;
+  margin-top: 4px;
+}
+.brands .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+.brands .box .card1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 35px;
+}
+.brands .box .card1 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.brands .box .card1 .text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F0F0F0;
+  padding: 15px;
+}
+.brands .box .card1 .text span {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.brands .box .card1 .text p {
+  font-size: 15px;
+  color: #333333;
+}
+.brands .box .card2 {
+  position: relative;
+}
+.brands .box .card2 .dark {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.6980392157);
+  top: 30px;
+  right: 38px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.brands .box .card2 .dark span {
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.brands .box .card2 .dark p {
+  font-size: 14px;
+  color: #fff;
+}
+.brands .box .card2 .dark button {
+  background-color: #fff;
+  color: #023047;
+  width: 120px;
+  height: 45px;
+  font-weight: 600;
+  border: none;
+  margin-top: 20px;
+}/*# sourceMappingURL=Brands.css.map */

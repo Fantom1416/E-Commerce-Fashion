@@ -1,23 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import Undernav from './Components/Udernav/Undernav';
+import Container from './Components/Container/Container';
+import Categories from './Components/Categories/Categories';
+import Bigcards from './Components/BigCards/Bigcards';
+import Tags from './Components/Tags/Tags';
+import Cards from './Components/Cards/Cards';
+import Banner from './Components/Banner/Banner';
+import Brands from './Components/Brands/Brands';
+import Coments from './Components/Coments/Coments';
+import End from './Components/End/End';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Undernav />
+      <Container />
+      <Categories />
+      <Bigcards />
+      <Tags />
+      <Cards />
+      <Banner />
+      <Brands />
+      <Coments />
+      <End />
+      <Footer />
     </div>
   );
 }
